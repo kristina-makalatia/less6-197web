@@ -1,0 +1,93 @@
+.social-icon {
+    width: 36px;
+    height: 36px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+}
+.fb-icon {
+    color: blue;
+    font-size: 20px;
+}
+.fa-youtube {
+    color: red;
+    font-size: 20px;
+}
+
+
+
+/* position property  */
+/* 1. Absolute & relative */
+.wraper {
+    width: 600px;
+    height: 600px;
+    background-color: yellow;
+    position: relative;
+}
+.block01 {
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    position: absolute;
+    top: 50px;
+    right: 80px;
+    z-index: 2;
+}
+.block02 {
+    width: 150px;
+    height: 150px;
+    background-color:blueviolet;
+    position: absolute;
+    top: 80px;
+    right: 100px;
+    z-index: 3;
+}
+.hello {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+}
+
+.text-on-image {
+    position: absolute;
+    top: 150px;
+    right: 100px;
+    color: blue;
+    font-size: 35px;
+}
+.image-wraper {
+    position: relative;
+    display: inline-block;
+}
+
+/* position Fixed */
+.chat-icon-image {
+    height: 100px;
+}
+.chat-icon {
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+}
+
+/* header fixed */
+.header-wraper-div {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightslategray;
+    padding: 30px;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    z-index:50;
+}
+.nav-ul-item {
+    display: flex;
+}
+.header-element {
+    height: 76px;
+}
